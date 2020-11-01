@@ -1,0 +1,40 @@
+body{
+    background-image: url(ca.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align:left;
+    padding: 55px;
+}
+.container{
+    position: relative;
+    height: 600px;
+    width: 100px;
+    border-radius: 15px;
+    background-color:white;
+    grid-gap: 0 16px;
+    gap: 0 16px;
+    margin: 24px 0 12px 0; 
+    padding-left: 90px;
+
+}
+@media screen and (min-width: 108px)
+ {
+ }
+.eline
+{
+	border:none;
+	border-bottom:2px solid wheat;
+	background:transparent;
+	outline:none;
+	height:40px;
+	font-size:16px;
+}
+a{
+    color: thistle;
+}
+a:hover{
+text-decoration: none;
+color: whitesmoke;
+}
